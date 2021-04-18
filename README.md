@@ -6,8 +6,8 @@
 Implemented a token smart contract with all required function that meets erc-20 standard.__
 
 <b>2.Crowdsale smart contract</b>__
-crowdsale smart contract is created with all required features such as it will start specified time and end at specified time.__
-ICO is success if it is able to raise funds more than softcap__
+crowdsale smart contract is created with all required features such as it will start specified time and end at specified time.<br />
+ICO is success if it is able to raise funds more than softcap<br />
 Client/Owner can change the price of token at any time and the value of token is given in dollars__
 Provable(formerly known as oraclize) is used to get current price of ether in dollars__
 <i>Logic used to convert dollars to wei is:-</i>__

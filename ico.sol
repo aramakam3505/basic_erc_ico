@@ -117,7 +117,7 @@ contract ico is usingProvable {
             ret += (uint8(_bytesValue[i]) - 48)*j;
             j*=10;}
         }
-       price=(_price*(10^^20)/ret);
+       price=(_price*(10**20)/ret);
     
        
    }
@@ -125,7 +125,7 @@ contract ico is usingProvable {
    //ICO is success if we are able to raise a minimum of 5000000 USD(softcap)
    function is_ico_success() public returns(bool){
        require(endtime<now && msg.sender==owner);
-       require((total_wei_raised*(price/(10^^18))>5000000) , "unable to raise minimum funds");
+       require((total_wei_raised*(price/(10**18))>5000000) , "unable to raise minimum funds");
        return true;
        
    }

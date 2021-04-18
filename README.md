@@ -5,7 +5,7 @@
 <b>1.Token smart contract</b><br />
 Implemented a token smart contract with all required function that meets erc-20 standard.<br />
 
-<b>2.Crowdsale smart contract</b>__
+<b>2.Crowdsale smart contract</b><br />
 crowdsale smart contract is created with all required features such as it will start specified time and end at specified time.<br />
 ICO is success if it is able to raise funds more than softcap<br />
 Client/Owner can change the price of token at any time and the value of token is given in dollars<br />

@@ -1,9 +1,9 @@
 # <b>Basic ERC-20 token with an ICO</b>
 
-<i><b> FEATURES IMPLEMENTED </b></i>
+<i><b> FEATURES IMPLEMENTED </b></i><br />
 
-<b>1.Token smart contract</b>
-Implemented a token smart contract with all required function that meets erc-20 standard.
+<b>1.Token smart contract</b><br />
+Implemented a token smart contract with all required function that meets erc-20 standard.<br />
 
 <b>2.Crowdsale smart contract</b>__
 crowdsale smart contract is created with all required features such as it will start specified time and end at specified time.<br />
